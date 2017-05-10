@@ -1,0 +1,88 @@
+body{
+  font-family: "Lato", sans-serif;
+  color: #747704;
+  font-weight: 300;
+}
+
+.text-muted{
+  color: #7d97ad;
+  font-size: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.text-thin{
+  font-weight: 300;
+}
+
+.title-super{
+  font-size: 50px;
+}
+
+.title-logo{
+  margin-top: 20px;
+}
+
+.text-color{
+  color: #2d3c49;
+}
+
+.profile-job {
+  margin: 5px;
+  font-size: 30px;
+}
+
+hr {
+  border-top: 4px solid #7d97ad;
+}
+
+
+.project-title {
+  color: #2d3c49;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+.project {
+  text-align: center;
+}
+
+.project-link {
+  font-size: 20px;
+  color: black;
+
+}
+
+.footer {
+margin-top: 50px;
+font-size: 1.143em;
+font-weight: 400;
+text-align: center;
+}
+
+@media only screen and (max-width: 992px) {
+  .profile {
+    text-align: center;
+  }
+
+  .profile-logo {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .profile {
+    text-align: center;
+  }
+
+  .profile-logo {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .profile-name {
+    font-size: 2.857em;
+  }
+}
